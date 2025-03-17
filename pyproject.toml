@@ -1,0 +1,18 @@
+[project]
+name = "fastapi-o3-w3d4-async-sqlalchemy-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "voyagerdva",email = "mariner-9@yandex.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sqlalchemy (>=2.0.39,<3.0.0)",
+    "asyncpg (>=0.30.0,<0.31.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
